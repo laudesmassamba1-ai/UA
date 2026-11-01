@@ -19,7 +19,7 @@ services:
   web:
     build:
       context: .
-      target: dev
+      target: local-developer
     ports:
       - "3000:3000"
     environment:
