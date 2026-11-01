@@ -1,0 +1,45 @@
+# Dependencies
+node_modules
+.pnpm-store
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Next.js
+.next
+out
+build
+
+# Prisma
+prisma/*.db
+prisma/*.db-journal
+packages/database/prisma/migrations/*.sql.bak
+
+# Docker
+.docker
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode
+.idea
+
+# Turbo
+.turbo
+dist
+coverage
+*.tsbuildinfo
+EOF
